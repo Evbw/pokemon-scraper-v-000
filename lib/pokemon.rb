@@ -22,7 +22,7 @@ class Pokemon
    # binding.pry
  end
  
- def alter_hp
+ def alter_hp(new_hp, id)
    db.execute("SELECT * FROM pokemon WHERE id=?", id)[0]
  end
   
