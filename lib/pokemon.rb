@@ -23,7 +23,7 @@ class Pokemon
  end
  
  def alter_hp
-   
+   db.execute("SELECT * FROM pokemon WHERE id=?", id)[0]
  end
   
 end
