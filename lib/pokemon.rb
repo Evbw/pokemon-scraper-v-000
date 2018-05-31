@@ -21,5 +21,9 @@ class Pokemon
     Pokemon.new(id: pokarray[0], name: pokarray[1], type: pokarray[2])
    # binding.pry
  end
+ 
+ def alter_hp
+   
+ end
   
 end
